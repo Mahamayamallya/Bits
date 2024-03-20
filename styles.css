@@ -1,0 +1,132 @@
+.bg-white {
+  background-color: #fff;
+  font-family: Queens, serif;
+}
+/****************************** NAVIGATION *********************************/
+.navbar {
+  padding: 20px 50px;
+}
+.navigation {
+  background-color: #e1e6e4;
+}
+
+.logo > a {
+  font-family: Queens, serif;
+  font-weight: bold;
+  font-size: 42px;
+}
+.navbar-nav {
+  font-family: Queens, serif;
+  font-size: 18px;
+}
+.nav-item {
+  padding-left: 20px;
+}
+
+.navbar-nav {
+  justify-content: center;
+}
+/******************************** MAIN SECTION *************************************/
+.content-text {
+  padding: 30px 50px 70px 50px;
+  text-align: center;
+  font-family: Queens, serif;
+  justify-content: center;
+}
+.main {
+  background-color: #e1e6e4;
+  background-image: url(images/smile.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+.main > .content-text > h2 {
+  font-size: 50px;
+  margin: 0 0 22px 0;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+.main > .content-text > h6 {
+  line-height: 1.6;
+  font-size: 15px;
+  margin: 0 auto 13px;
+
+  font-weight: 530;
+  letter-spacing: 0.1em;
+}
+.main > .content-text > h6 > span {
+  font-style: italic;
+}
+.main > .content-text > button {
+  border-radius: 0%;
+  padding: 10px 40px;
+}
+/*************** BEST SELLER ***************************************/
+.card a {
+  border-radius: 0%;
+  padding: 10px 40px;
+  background-color: black;
+}
+.card a:hover {
+  background-color: #72f2c7;
+  color: black;
+}
+.card {
+  background-color: #fff;
+  border: #000 solid 1px;
+  border-radius: 0%;
+  margin: 0 20px;
+}
+.bg-white > h2 {
+  text-align: center;
+  margin: 50px auto;
+  font-size: 50px;
+}
+.card-group > .card + .card {
+  border-left: #000 solid 1px;
+}
+.card-group {
+  margin-bottom: 70px;
+}
+
+/******************** WHY BITS ARE BETTER *********************/
+.why-bits-are-better > .container {
+  padding: 20px 30px;
+  background-image: url(images/bitsBg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: grid;
+  gap: 48px;
+  padding-bottom: 32px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+/* .why-bits-are-better .icon {
+  display: inline-block;
+} */
+.why-bits-are-better h4 {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.grid-item {
+  text-align: center;
+}
+/**************************FOOTER ***************************************/
+footer {
+  background-color: #000;
+  height: 30px;
+  color: #fff;
+  text-align: center;
+}
+/************************** MEDIA QUERIES *******************************/
+@media screen and (max-width: 768px) {
+  .main {
+    background-image: none;
+  }
+  .why-bits-are-better > .container {
+    background-image: none;
+  }
+}
